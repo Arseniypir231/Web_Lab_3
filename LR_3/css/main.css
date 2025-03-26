@@ -3,8 +3,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 
-
-
 *{
     padding: 0;
     margin: 0;
@@ -12,8 +10,6 @@
     --font-family: "PT Serif", serif;
     --second-family: "PT Sans", sans-serif;
     --third-family: "Hanken Grotesk", sans-serif;
-
-
 }
 
 h3{
@@ -75,7 +71,6 @@ header ul li{
     display: flex;
     width:  120rem;
     height: 43.75rem;
-    background-color: yellow;
 }
 
 
@@ -124,4 +119,144 @@ h1{
 
 .heroText h2 span{
     color: #B4B4B4;
+}
+
+.post_1{
+    display: grid;
+    grid-template-columns: 23.125rem 23.125rem;
+    column-gap: 1.875rem;
+    grid-template-rows: 25.688rem 25.688rem 25.688rem;
+    row-gap: 1.875rem;
+    width: 48.125rem;
+    height: 80.813rem;
+    margin-left: 23.438rem;
+    margin-top: 3.75rem;
+
+}
+
+.post_1 article{
+    width: 23.125rem;
+    height: 25.688rem;
+    box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.10);
+
+}
+
+.post_1 h3{
+    color: #C9A96E;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-left: 10.063rem;
+    margin-top: 0.7rem;
+}
+
+.post_1 .sport_h3{
+    margin-left: 10.5rem;
+}
+
+.post_1 h2 {
+    color: #171717; 
+    text-align: center;
+    width: 17.813rem;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.75rem; /* 140% */
+    margin-left: 2.688rem;
+    margin-top: 0.25rem;
+}
+
+
+.post_1 .articleText{
+    display: flex;
+    gap: 0.82rem;
+    height: 0rem;
+    width: 23.125rem;
+    padding-right: 2.5rem;    
+}
+
+.post_1 .articleText h2{
+    color: #666;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 0.75rem;
+    
+}
+
+.post_1 .articleText h2 span{
+    color: #B1B1B1;
+    margin-left: 0.5rem;
+}
+
+.post_2{
+    width: 48.125rem;
+    height: 35.063rem;
+    margin-top: 3.75rem;
+    margin-left: 23.5rem;
+    box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.10);
+}
+
+.post_2 h2{
+    color: #171717;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 0.375rem;
+    margin-left: 1.875rem;
+    line-height: normal;
+
+}
+
+.post_2 h3{
+    color: #C9A96E;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 1.4rem;
+    margin-left: 1.875rem;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.articleText_post2{
+    display: flex;
+    gap: 0.82rem;
+    height: 1rem;
+    width: 48.125rem;
+    padding-right: 2.5rem; 
+}
+
+.articleText_post2 h2{
+    color: #666;
+    font-size: 0.75rem;
+    height: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 0.75rem;
+}
+
+.articleText_post2 h2 span{
+    color: #B1B1B1;
+    margin-left: 0.5rem;
+}
+
+.post_2 p{
+    color: #666;
+    font-family: "PT Sans";
+    width: 38.375rem;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 1.55rem;
+    margin-left: 1.875rem;
+    line-height: 1.5rem; /* 171.429% */
+}
+
+.post_2 .comments_h2{
+    margin-left: -0.1rem;
 }
