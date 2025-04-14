@@ -600,6 +600,7 @@ aside {
     width: 16.875rem;
     height: 3.125rem;
     flex-shrink: 0;
+    border: 0.063rem solid #E5E5E5;
 }
 
 .sidebar_featured_text h2 {
